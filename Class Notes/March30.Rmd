@@ -1,0 +1,56 @@
+---
+title: "March30"
+author: "Madeline Gorchels"
+date: "3/30/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Question has to fit the model. Best first thing is asking a really good question. 
+-scale
+-variables of interest
+-What outputs do you need?
+
+How will green infrastructure affect urban heat island in summer temperatures in Austin Texas?
+
+Models designed for communication. 
+-Designed to explain to the public
+-Already know the answer usually
+
+Conceptual models
+-Like to seperate parameters and inputs
+-inputs will be about the climate
+-parameters will be the albedo of snow
+
+Model Steps
+1) Clearly define goal 
+2) Design/Select model
+3) Implement the model
+4) Evaluate the model and quantify uncertainty
+5) Apply the model to the goal
+6) Communicate model results
+
+What questions will be answered? Why is this question important? What are the inputs and outputs?
+
+One foot above sea level 
+City planners hire a consulting agency need to deal with sea level rise. How high will it rise locally and when?
+Inputs: DEM, temperature of the local water, ocean topography
+Different water temeperature, amount of sea ice, amount of storms
+Outputs: Map showing where the water is, probability associated with different sea level rise scenarios, temporporal probability distribution, area of 
+
+Which is most feasable to estimate in a model?
+
+
+
+
+
+
+
+
+
+
+
+
