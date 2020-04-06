@@ -1,0 +1,41 @@
+---
+title: "April 1"
+author: "Madeline Gorchels"
+date: "4/1/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+What are the inputs? What are the outputs? What are the parameters?
+-What is in the transfer box?
+-Always diagram your model and off the shelf models
+-Need data to create simple relationships, and these simple relationships might miss important data 
+-What did you account for? what did you not account for?
+-Complicated models may be hierarchical 
+-Conceptual model of a process 
+-Don't need to know all of the calculations, but you should know the conceptual model
+-Stochastic vs Deterministic
+  -Given an input you get a single output (deterministic)
+  -Stochastic is randomly creating a distribution inside of it somewhere, may need to run the model multiple times to get a good distribution
+    -Implimented in very different ways
+    
+-Lumped vs Spatially distributed
+  -Spatilly distributed, what is the spatial resolution and are they independent 
+  -Lumped- a single point in space or space doesnt matter
+-Static v Dynamic time varying
+  -Static model has no evolution through time
+  -Dynamic-what happens at one time step depends on the previous time step (temporal dependency)
+Abstract v Physically process based
+-Abstract- parameter doesn't necissarily have physcial meaning (derived slope)
+-Physically based- infiltration rate parameter 
+
+Creating a conceptual model
+-what are your outputs: temporal resolution, extent, spatial resolution, extent 
+-What are your system boundaries? What comes in from the outside? What is computed inside of your model
+-differentiate between input, outputs, and things inside model and outside of model
+-distinguish between states and products (sinks vs processes)
+-same shape for processes/data
+-draw.io google slides 

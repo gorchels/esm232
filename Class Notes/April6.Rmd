@@ -1,0 +1,25 @@
+---
+title: "April 6"
+author: "Madeline Gorchels"
+date: "4/6/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+-Focus on units and document clearly
+-Use best practices in code developemet
+  -Organize!
+  -Hierarchy helps make testing and identifying errors easier
+  -Before coding, start by writing down your goal and how you will use the inputs and outputs 
+
+-when you put information into function, it will assume the same order as the parameters required 
+-putting functions in R is part of the architecture that helps you build a package 
+-result only exists inside of the function, for example okun will be the variable name not result 
+  -useful because it does not overwrite functions in your workspace
+-give functions names that are unique
+
+Error checking
+mapply and sapply make it so you can run dataframe data in your model and give you a column for your model's output. See code! 
